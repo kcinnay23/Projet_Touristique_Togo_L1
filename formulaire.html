@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<title>formulaire</title>
+	</head>
+	<body>
+	<h1>Fiche de Renseignement</h1>
+	<form>
+		<fieldset>
+			<legend>Identité</legend>
+			<label>Nom:
+				<input type="text" name="txtnom" id="txtnom"
+				placeholder="Nom" required="required"/>
+			</label><br/>
+			<label>Prenom:
+				<input type="text" name="txtprenom" id="txtprenom"
+				placeholder="Prenom">
+			</label><br/>
+			<label>Date de naissance:
+				<input type="date" name="txtdatenaiss" id="txtdatenaisss"
+				placeholder="datenaiss">
+			</label><br/>
+			<label>Sexe:
+			<label>Masculin
+				<input type="radio" name="txtsexe" id="txtsexemas">
+			</label>
+			<label>Feminin
+				<input type="radio" name="txtsexe" id="txtsexefim">
+			</label><br/>
+			</label>
+			<label>Lieu de naissance:
+				<input type="text" name="txtlieunaiss" id="txtlieunaisss"
+				placeholder="lieudenaiss">
+			</label><br/>
+			
+			<label>Age:
+				<input type="txt" name="txtnation" id="txtnation"
+				placeholder="Votre Age">
+			</label><br/>
+			<label>Continent de Provenance:
+				<select>
+					<option>Afrique</option>
+					<option>Europe</option>
+					<option>Asie</option>
+					<option>Amérique</option>
+				</select>
+			</label><br/>			
+			<label>Telephone:
+				<input type="tel" name="txtphonenum" id="txtphonenum"
+				placeholder="telnum">
+			</label><br/>
+			<label>Piece jointe:
+				<input type="file" name="txtpiecejointe" id="txtpiecejointe"
+				placeholder="ajouterunephoto">
+			</label><br/>
+			<button type="submit">Envoyer</button>
+		</fieldset>		
+	</form>
+	</body>
+</html>
